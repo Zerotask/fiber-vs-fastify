@@ -1,0 +1,8 @@
+{
+  "name": "fastify",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^3.17.0"
+  }
+}
