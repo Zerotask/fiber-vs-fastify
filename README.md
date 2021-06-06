@@ -19,7 +19,7 @@ cd fiber-vs-fastify
 
 ## Plans
 
-- Add Python's micro webframe Flask
+- Add Python's micro web framework Flask
 - Add more endpoints
 - Add a MongoDB connection
 - Add other commonly used functions etc.
