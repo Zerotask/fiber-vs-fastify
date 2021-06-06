@@ -10,5 +10,10 @@ func main() {
 		return context.JSON(fiber.Map{"name": "Max Mustermann"})
 	})
 
+	app.Get("/products", func(context *fiber.Ctx) error {
+		products := []string{"Milk", "Bread", "Honey", "Potatoes", "Chocolate"}
+		return context.JSON(products)
+	})
+
 	app.Listen(":3000")
 }
