@@ -4,5 +4,8 @@
   "license": "MIT",
   "dependencies": {
     "fastify": "^3.17.0"
+  },
+  "scripts": {
+    "start": "node ./src/server.js"
   }
 }
